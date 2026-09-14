@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="tWVNxKSVNiZjhmAKXhhK">
+    <mxGraphModel dx="1030" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主PLC&lt;div&gt;R08EN&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-3" edge="1" parent="1" source="t0yv9DdwIyiAGKiiHYaj-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" target="t0yv9DdwIyiAGKiiHYaj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-4" connectable="0" parent="t0yv9DdwIyiAGKiiHYaj-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="通訊介面CC-Link IE Field" vertex="1">
+          <mxGeometry relative="1" x="-0.22" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="上位PLC" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-7" edge="1" parent="1" source="t0yv9DdwIyiAGKiiHYaj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t0yv9DdwIyiAGKiiHYaj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-8" connectable="0" parent="t0yv9DdwIyiAGKiiHYaj-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="PLC內bus&lt;br&gt;高速通訊" vertex="1">
+          <mxGeometry relative="1" x="0.0222" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="運動控制器&lt;div&gt;R16&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-10" edge="1" parent="1" source="t0yv9DdwIyiAGKiiHYaj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t0yv9DdwIyiAGKiiHYaj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-11" connectable="0" parent="t0yv9DdwIyiAGKiiHYaj-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="通訊介面&lt;br&gt;CC-Link IE Field&amp;nbsp; Basic&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0yv9DdwIyiAGKiiHYaj-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="三菱手持式人機&lt;br&gt;GT2506HS-VTBD" vertex="1">
+          <mxGeometry height="60" width="110" x="660" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9dP2nJr9U0voo1qpuCCL-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="A1&lt;br&gt;關節" vertex="1">
+          <mxGeometry height="80" width="90" x="70" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
